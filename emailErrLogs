@@ -1,0 +1,1019 @@
+exception \'phpmailerException\' with message \'SMTP Error: Could not connect to SMTP host.\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\PHPMailer Lib\\class.phpmailer.php:1354
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\PHPMailer Lib\\class.phpmailer.php(1229): PHPMailer->smtpConnect(Array)
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\PHPMailer Lib\\class.phpmailer.php(1074): PHPMailer->smtpSend(\'Date: Wed, 12 J...\', \'This is a multi...\')
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\PHPMailer Lib\\class.phpmailer.php(983): PHPMailer->postSend()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\SendMailer.php(25): PHPMailer->send()
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\dbfunc\\panksyons.php(626): SendMail(Array, \'QRS - Issue/Con...\', \'\\r\\n<html>\\r\\n<head...\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\dbfunc\\panksyons.php(352): SendEmail(Array, \'\\r\\n<div style=\'b...\', \'QRS - Issue/Con...\')
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\dbfunc\\panksyons.php(186): eMailer(28, \'Issue/Concern\', 1, 4, \'THIS IS SAMPLE ...\', \'2\', \'6\', \'2017-07-12 10:4...\')
+#7 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\createform.php(98): createTrans()
+#8 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#9 {main}
+exception \'phpmailerException\' with message \'SMTP Error: Could not connect to SMTP host.\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\PHPMailer Lib\\class.phpmailer.php:1678
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\PHPMailer Lib\\class.phpmailer.php(1540): PHPMailer->smtpConnect(Array)
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Fri, 14 J...\', \'This is a multi...\')
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\SendMailer.php(25): PHPMailer->send()
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\dbfunc\\panksyons.php(393): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\dbfunc\\panksyons.php(186): eMailer(53, \'Issue/Concern\', 1, 4, \'sasdfasdf\', \'1\', \'1\', \'2017-07-14 9:07...\')
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\createform.php(98): createTrans()
+#7 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#8 {main}
+exception \'phpmailerException\' with message \'SMTP Error: Could not connect to SMTP host.\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\PHPMailer Lib\\class.phpmailer.php:1678
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\PHPMailer Lib\\class.phpmailer.php(1540): PHPMailer->smtpConnect(Array)
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Fri, 14 J...\', \'This is a multi...\')
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\mailer\\SendMailer.php(25): PHPMailer->send()
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\dbfunc\\panksyons.php(393): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\dbfunc\\panksyons.php(250): eMailer(\'32\', \'Request\', \'2\', 4, \'request\', 2, 6, \'2017-07-12 11:1...\')
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\detailsResponse.php(5): Response()
+#7 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS\\details2.php(112): include(\'D:\\\\diwaIntranet...\')
+#8 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(510): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(283): eMailer(1, \'Issue/Concern\', 1, \'02280417\', \'Lorem ipsum kem...\', \'3\', \'5\', \'2017-07-21 18:0...\', 6)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(99): createTrans()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(509): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(282): eMailer(2, \'Issue/Concern\', 1, \'03240525\', \'THIS IS SAMPLE ...\', \'2\', \'4\', \'2017-07-21 18:4...\', 3)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(99): createTrans()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(509): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(282): eMailer(3, \'Request\', 1, \'03240525\', \'sample only.\', \'1\', \'1\', \'2017-07-21 18:5...\', 1)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(99): createTrans()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(526): SendMail(Array, \'HR-QRS -  #  - ...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(373): eMailer(\'\', NULL, \'3\', NULL, NULL, NULL, NULL, NULL, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsResponse.php(5): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(119): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(526): SendMail(Array, \'HR-QRS -  #  - ...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(373): eMailer(\'\', NULL, \'2\', NULL, NULL, NULL, NULL, NULL, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsResponse.php(5): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(117): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Wed, 2 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(528): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(301): eMailer(16, \'Issue/Concern\', 1, \'04260505\', \'Lorem ipsum dol...\', \'1\', \'1\', \'2017-08-02 10:5...\', 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(99): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Wed, 2 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(528): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(301): eMailer(17, \'Issue/Concern\', 1, \'04260505\', \'Lorem ipsum dol...\', \'2\', \'4\', \'2017-08-02 10:5...\', 10)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(99): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(431): eMailer(\'6\', \'Issue/Concern\', \'8\', \'04260505\', \'THIS IS SAMPLE ...\', 2, 4, \'2017-07-26 13:5...\', 10)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(431): eMailer(\'11\', \'Issue/Concern\', \'6\', \'04260505\', \'Sample, for HRC...\', 1, 1, \'2017-07-27 15:0...\', 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(357): eMailer(18, \'Issue/Concern\', 1, \'04260505\', \'this is sample ...\', \'1\', \'2\', \'2017-08-03 11:0...\', 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(431): eMailer(\'17\', \'Issue/Concern\', \'3\', \'04260505\', \'Lorem ipsum dol...\', 2, 4, \'2017-08-02 10:5...\', 10)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(431): eMailer(\'17\', \'Issue/Concern\', \'6\', \'04260505\', \'Lorem ipsum dol...\', 2, 4, \'2017-08-02 10:5...\', 10)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(357): eMailer(19, \'Issue/Concern\', 1, \'04260505\', \'Sample descript...\', \'1\', \'10\', \'2017-08-03 13:3...\', 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(357): eMailer(20, \'Issue/Concern\', 1, \'04260505\', \'Sample descript...\', \'1\', \'10\', \'2017-08-03 13:3...\', 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(431): eMailer(\'20\', \'Issue/Concern\', \'5\', \'04260505\', \'Sample descript...\', 1, 10, \'2017-08-03 13:3...\', 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(431): eMailer(\'20\', \'Issue/Concern\', \'2\', \'04260505\', \'Sample descript...\', 1, 10, \'2017-08-03 13:3...\', 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(431): eMailer(\'20\', \'Issue/Concern\', \'3\', \'04260505\', \'Sample descript...\', 1, 10, \'2017-08-03 13:3...\', 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(431): eMailer(\'20\', \'Issue/Concern\', \'8\', \'04260505\', \'Sample descript...\', 1, 10, \'2017-08-03 13:3...\', 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(431): eMailer(\'20\', \'Issue/Concern\', \'3\', \'04260505\', \'Sample descript...\', 1, 10, \'2017-08-03 13:3...\', 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(431): eMailer(\'20\', \'Issue/Concern\', \'6\', \'04260505\', \'Sample descript...\', 1, 10, \'2017-08-03 13:3...\', 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(357): eMailer(21, \'Issue/Concern\', 1, \'04260505\', \'this is sample ...\', \'1\', \'2\', \'2017-08-03 14:2...\', 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(431): eMailer(\'21\', \'Issue/Concern\', \'5\', \'04260505\', \'this is sample ...\', 1, 2, \'2017-08-03 14:2...\', 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(584): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(431): eMailer(\'21\', \'Issue/Concern\', \'2\', \'04260505\', \'this is sample ...\', 1, 2, \'2017-08-03 14:2...\', 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(585): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(432): eMailer(\'12\', \'Issue/Concern\', \'8\', \'03130301\', \'THIS IS SAMPLE ...\', 2, 4, \'2017-07-27 17:1...\', 10)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP Error: Could not authenticate.\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1692
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1540): PHPMailer->smtpConnect(Array)
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(580): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(432): eMailer(\'23\', \'Issue/Concern\', \'7\', \'03130301\', \'asdfasdf\', 3, 5, \'2017-08-03 18:4...\', 9, 1)
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#7 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#8 {main}
+No Email of Reassigned HR Specialist
+--1exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 3 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(585): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(432): eMailer(\'25\', \'Issue/Concern\', \'5\', \'03130301\', \'asdfasdf\', 2, 6, \'2017-08-03 19:1...\', 10, 1)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+No Email of Reassigned HR Specialist
+--No Email of Reassigned HR Specialist
+--exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 8 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(587): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(366): eMailer(31, \'Issue/Concern\', 1, \'04260505\', \'Testing. Please...\', \'1\', \'2\', \'2017-08-08 15:5...\', 12, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 8 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(585): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(364): eMailer(32, \'Issue/Concern\', 1, \'03240525\', \'asdfasdfasd\', \'1\', \'2\', \'2017-08-08 19:2...\', 12, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 8 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(585): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(439): eMailer(\'32\', \'Issue/Concern\', \'7\', \'03240525\', \'asdfasdfasd\', 1, 2, \'2017-08-08 19:2...\', 12, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 8 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(585): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(439): eMailer(\'25\', \'Issue/Concern\', \'7\', \'03130301\', \'asdfasdf\', 2, 6, \'2017-08-03 19:1...\', 10, 9)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 8 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(585): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(364): eMailer(33, \'Issue/Concern\', 1, \'12250615\', \'test\', \'1\', \'2\', \'2017-08-08 19:3...\', 12, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 8 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(585): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(439): eMailer(\'33\', \'Issue/Concern\', \'5\', \'12250615\', \'test\', 1, 2, \'2017-08-08 19:3...\', 12, 9)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Wed, 9 Au...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(586): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(365): eMailer(34, \'Request\', 1, \'04260505\', \'Testing. Kindly...\', \'3\', \'5\', \'2017-08-09 9:39...\', 9, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(742): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(596): eMailer(\'49\', \'Request\', \'6\', \'07090326\', \'Hi HR Departmen...\', 1, 10, \'2017-08-15 16:1...\', 12, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(742): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(596): eMailer(\'46\', \'Request\', \'6\', \'11300606\', \'May I request f...\', 9, 23, \'2017-08-15 16:1...\', 10, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(742): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(596): eMailer(\'53\', \'Issue/Concern\', \'6\', \'11300606\', \'My SSS contribu...\', 1, 3, \'2017-08-15 16:3...\', 12, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(742): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(596): eMailer(\'50\', \'Issue/Concern\', \'6\', \'12261022\', \'Try lang.\', 7, 14, \'2017-08-15 16:1...\', 10, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(742): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(596): eMailer(\'48\', \'Request\', \'6\', \'03300506\', \'Change of ID du...\', 3, 27, \'2017-08-15 16:1...\', 9, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 17 A...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(754): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(608): eMailer(\'57\', \'Issue/Concern\', \'7\', \'04260505\', \'THIS IS SAMPLE ...\', 6, 13, \'2017-08-17 10:2...\', 11, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(754): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(608): eMailer(\'43\', \'Issue/Concern\', \'6\', \'03130301\', \'gasdsa\', 1, 2, \'2017-08-15 16:0...\', 12, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Fri, 15 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(754): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(533): eMailer(76, \'Issue/Concern\', 1, \'03130301\', \'asdf\', \'9\', \'23\', \'2017-09-15 9:26...\', 10, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Fri, 15 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(754): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(608): eMailer(\'76\', \'Issue/Concern\', \'7\', \'03130301\', \'asdf\', 9, 23, \'2017-09-15 09:2...\', 10, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(754): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(608): eMailer(\'71\', \'Request\', \'7\', \'03130301\', \'\', NULL, NULL, \'2017-08-31 17:3...\', NULL, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(754): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(533): eMailer(78, \'Issue/Concern\', 1, \'07240105\', \'Lorem ipsum kem...\', \'1\', \'1\', \'2017-09-18 10:4...\', 12, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(754): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(608): eMailer(\'78\', \'Issue/Concern\', \'2\', \'07240105\', \'Lorem ipsum kem...\', 1, 1, \'2017-09-18 10:4...\', 12, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(754): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(608): eMailer(\'78\', \'Issue/Concern\', \'3\', \'07240105\', \'Lorem ipsum kem...\', 1, 1, \'2017-09-18 10:4...\', 12, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(754): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(608): eMailer(\'78\', \'Issue/Concern\', \'8\', \'07240105\', \'Lorem ipsum kem...\', 1, 1, \'2017-09-18 10:4...\', 12, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(754): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(608): eMailer(\'78\', \'Issue/Concern\', \'9\', \'07240105\', \'Lorem ipsum kem...\', 1, 1, \'2017-09-18 10:4...\', 12, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(533): eMailer(81, \'Issue/Concern\', 1, \'03130301\', \'THIS IS SAMPLE ...\', \'6\', \'13\', \'2017-09-18 11:3...\', 11, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(533): eMailer(82, \'Issue/Concern\', 1, \'03130301\', \'ASDFAS\', \'1\', \'3\', \'2017-09-18 11:4...\', 12, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'82\', \'Issue/Concern\', \'5\', \'03130301\', \'ASDFAS\', 1, 3, \'2017-09-18 11:4...\', 12, 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'82\', \'Issue/Concern\', \'2\', \'03130301\', \'ASDFAS\', 1, 3, \'2017-09-18 11:4...\', 12, 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'82\', \'Issue/Concern\', \'3\', \'03130301\', \'ASDFAS\', 1, 3, \'2017-09-18 11:4...\', 12, 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(533): eMailer(83, \'Request\', 1, \'03130301\', \'THIS IS SAMPLE ...\', \'8\', \'22\', \'2017-09-18 13:3...\', 10, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'78\', \'Issue/Concern\', \'5\', \'07240105\', \'Lorem ipsum kem...\', 1, 1, \'2017-09-18 10:4...\', 12, 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'78\', \'Issue/Concern\', \'2\', \'07240105\', \'Lorem ipsum kem...\', 1, 1, \'2017-09-18 10:4...\', 12, 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'78\', \'Issue/Concern\', \'3\', \'07240105\', \'Lorem ipsum kem...\', 1, 1, \'2017-09-18 10:4...\', 12, 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'78\', \'Issue/Concern\', \'6\', \'07240105\', \'Lorem ipsum kem...\', 1, 1, \'2017-09-18 10:4...\', 12, 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'82\', \'Issue/Concern\', \'3\', \'03130301\', \'ASDFAS\', 1, 3, \'2017-09-18 11:4...\', 12, 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'82\', \'Issue/Concern\', \'3\', \'03130301\', \'ASDFAS\', 1, 3, \'2017-09-18 11:4...\', 12, 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'82\', \'Issue/Concern\', \'3\', \'03130301\', \'ASDFAS\', 1, 3, \'2017-09-18 11:4...\', 12, 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'82\', \'Issue/Concern\', \'8\', \'03130301\', \'ASDFAS\', 1, 3, \'2017-09-18 11:4...\', 12, 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'82\', \'Issue/Concern\', \'2\', \'03130301\', \'ASDFAS\', 1, 3, \'2017-09-18 11:4...\', 12, 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'82\', \'Issue/Concern\', \'3\', \'03130301\', \'ASDFAS\', 1, 3, \'2017-09-18 11:4...\', 12, 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'82\', \'Issue/Concern\', \'6\', \'03130301\', \'ASDFAS\', 1, 3, \'2017-09-18 11:4...\', 12, 12)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(533): eMailer(84, \'Issue/Concern\', 1, \'02280417\', \'sfefd\', \'6\', \'13\', \'2017-09-18 17:3...\', 11, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(533): eMailer(85, \'Issue/Concern\', 1, \'04260505\', \'jjhklkj\', \'6\', \'13\', \'2017-09-18 17:3...\', 11, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(533): eMailer(86, \'Issue/Concern\', 1, \'04260505\', \'dshfd\', \'1\', \'2\', \'2017-09-18 17:3...\', 12, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 18 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'86\', \'Issue/Concern\', \'7\', \'04260505\', \'dshfd\', 1, 2, \'2017-09-18 17:3...\', 12, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 19 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'83\', \'Request\', \'7\', \'03130301\', \'THIS IS SAMPLE ...\', 8, 22, \'2017-09-18 13:3...\', 10, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 19 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(533): eMailer(87, \'Issue/Concern\', 1, \'03130301\', \'THIS IS SAMPLE ...\', \'7\', \'14\', \'2017-09-19 9:32...\', 10, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 19 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'81\', \'Issue/Concern\', \'7\', \'03130301\', \'THIS IS SAMPLE ...\', 6, 13, \'2017-09-18 11:3...\', 11, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 19 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'64\', \'Request\', \'7\', \'03130301\', \'gsdfgsd\', 7, 14, \'2017-08-17 17:4...\', 10, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 19 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'64\', \'Request\', \'7\', \'03130301\', \'gsdfgsd\', 7, 14, \'2017-08-17 17:4...\', 10, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 19 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'64\', \'Request\', \'7\', \'03130301\', \'gsdfgsd\', 7, 14, \'2017-08-17 17:4...\', 10, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'69\', \'Request\', \'7\', \'03130301\', \'\', NULL, NULL, \'2017-08-31 16:0...\', NULL, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'66\', \'Request\', \'7\', \'03130301\', \'\', NULL, NULL, \'2017-08-31 16:0...\', NULL, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 19 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'80\', \'Issue/Concern\', \'7\', \'03130301\', \'ako ang simula\\r...\', 6, 13, \'2017-09-18 11:3...\', 11, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 19 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(533): eMailer(88, \'Issue/Concern\', 1, \'03130301\', \'asdfasdfasdf\', \'6\', \'13\', \'2017-09-19 10:1...\', 11, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 19 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'88\', \'Issue/Concern\', \'7\', \'03130301\', \'asdfasdfasdf\', 6, 13, \'2017-09-19 10:1...\', 11, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 19 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(533): eMailer(89, \'Request\', 1, \'03130301\', \'THIS IS SAMPLE ...\', \'7\', \'14\', \'2017-09-19 10:3...\', 10, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 19 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(533): eMailer(90, \'Issue/Concern\', 1, \'03130301\', \'SAMPLE AGAIN\', \'2\', \'6\', \'2017-09-19 10:3...\', 10, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 19 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'90\', \'Issue/Concern\', \'7\', \'03130301\', \'SAMPLE AGAIN\', 2, 6, \'2017-09-19 10:3...\', 10, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 19 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\dbfunc\\panksyons.php(609): eMailer(\'45\', \'Issue/Concern\', \'3\', \'04260505\', \'asdfas\', 2, 4, \'2017-08-15 16:0...\', 10, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRS2\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Tue, 19 S...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(533): eMailer(91, \'Issue/Concern\', 1, \'03130301\', \'THIS IS SAMPLE ...\', \'4\', \'7\', \'2017-09-19 11:1...\', 11, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(609): eMailer(\'73\', \'Issue/Concern\', \'7\', \'03130301\', \'\', NULL, NULL, \'2017-08-31 17:3...\', NULL, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\detailsRespHist.php(4): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(609): eMailer(\'70\', \'Issue/Concern\', \'7\', \'03130301\', \'\', 3, NULL, \'2017-08-31 16:1...\', NULL, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\detailsRespHist.php(4): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(609): eMailer(\'62\', \'Issue/Concern\', \'7\', \'03130301\', \'\', NULL, NULL, \'2017-08-17 16:4...\', NULL, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\detailsRespHist.php(4): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(609): eMailer(\'65\', \'Request\', \'7\', \'03130301\', \'\', NULL, NULL, \'2017-08-31 16:0...\', NULL, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\detailsRespHist.php(4): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'Invalid address:  (addAnAddress to): \' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:879
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(819): PHPMailer->addOrEnqueueAnAddress(\'to\', NULL, \'\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(18): PHPMailer->addAddress(NULL)
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Reques...\', \'\\r\\n<html>\\r\\n<head...\')
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(609): eMailer(\'67\', \'Request\', \'7\', \'03130301\', \'\', NULL, NULL, \'2017-08-31 16:0...\', NULL, NULL)
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\detailsRespHist.php(4): Response()
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#6 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 12 O...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(533): eMailer(1, \'Issue/Concern\', 1, \'03130301\', \'THIS IS SAMPLE ...\', \'7\', \'14\', \'2017-10-12 10:5...\', 10, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 12 O...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(533): eMailer(2, \'Issue/Concern\', 1, \'03130301\', \'Sample Again\', \'6\', \'13\', \'2017-10-12 11:0...\', 11, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 12 O...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(609): eMailer(\'2\', \'Issue/Concern\', \'7\', \'03130301\', \'Sample Again\', 6, 13, \'2017-10-12 11:0...\', 11, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 12 O...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(609): eMailer(\'1\', \'Issue/Concern\', \'7\', \'03130301\', \'THIS IS SAMPLE ...\', 7, 14, \'2017-10-12 10:5...\', 10, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 6 No...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(533): eMailer(4, \'Issue/Concern\', 1, \'03130301\', \'THIS IS SAMPLE ...\', \'6\', \'13\', \'2017-11-06 9:48...\', 11, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 6 No...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(609): eMailer(\'4\', \'Issue/Concern\', \'7\', \'03130301\', \'THIS IS SAMPLE ...\', 6, 13, \'2017-11-06 09:4...\', 11, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Mon, 6 No...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(755): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(533): eMailer(5, \'Issue/Concern\', 1, \'03130301\', \'asdfasd\', \'6\', \'13\', \'2017-11-06 10:2...\', 11, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 4 Ja...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(757): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(535): eMailer(6, \'Issue/Concern\', 1, \'03130301\', \'THIS IS SAMPLE ...\', \'6\', \'13\', \'2018-01-04 13:4...\', 11, \'\')
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\createform.php(3): createTrans()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\qrscreate.php(86): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 4 Ja...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(757): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(611): eMailer(\'6\', \'Issue/Concern\', \'2\', \'03130301\', \'THIS IS SAMPLE ...\', 6, 13, \'2018-01-04 13:4...\', 11, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
+exception \'phpmailerException\' with message \'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\' in D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php:1541
+Stack trace:
+#0 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1335): PHPMailer->smtpSend(\'Date: Thu, 4 Ja...\', \'This is a multi...\')
+#1 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\PHPMailer Lib\\class.phpmailer.php(1213): PHPMailer->postSend()
+#2 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\mailer\\SendMailer.php(25): PHPMailer->send()
+#3 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(757): SendMail(Array, \'HR-QRS - Issue/...\', \'\\r\\n<html>\\r\\n<head...\')
+#4 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\dbfunc\\panksyons.php(611): eMailer(\'6\', \'Issue/Concern\', \'3\', \'03130301\', \'THIS IS SAMPLE ...\', 6, 13, \'2018-01-04 13:4...\', 11, NULL)
+#5 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\detailsRespHist.php(4): Response()
+#6 D:\\diwaIntranet\\diwaportal\\HR\\NEW\\QRSDev\\details2.php(113): include(\'D:\\\\diwaIntranet...\')
+#7 {main}
