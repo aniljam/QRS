@@ -1,0 +1,90 @@
+.navbar.navbar-default.navbar-static-top{
+ border-color: #66c3bf;
+ font-color:#fff;
+ color:#fff!important;
+ background-color:#016877; 
+}
+
+a.navbar-brand.astyle{
+ font-color:#fff;
+ color:#fff;
+ font-size: 1.5em;
+}
+a.navbar-brand.astyle:hover{
+	color: #000;
+	background-color: #66c3bf;
+}
+a.navbar-brand.astyle:focus{
+	color: #000;
+	background-color: #66c3bf;
+}
+a.active{
+ 	color:#000;
+ 	background-color:#66c3bf; 
+}
+ul.nav li>a.active{
+	color:#000;
+ 	background-color:#66c3bf; 
+ 	font-weight: bold;
+}
+ul.nav li.active{
+	color:#000;
+ 	background-color:#66c3bf; 
+}
+div.welcomenote{
+	height: 70px;
+}
+ul.nav li{
+	background-color: #016877;
+}
+ul.nav li> a:focus{
+	color: #000;
+	background-color: #66c3bf;
+}
+ul.nav li> a:hover{
+ 	color:#000;
+ 	background-color:#66c3bf; 
+}
+ul.nav li> a{
+	color:#fff;
+	background-color: #016877;
+}
+ul.nav li> a:active{
+	color:#000;
+ 	background-color:#66c3bf; 
+}
+
+table#responsetable{
+	background-color: #eaeaea!important;
+}
+#page-wrapper{
+	background-color: #F3F4F5;
+	border-color: #66c3bf;
+}
+table#DispTable thead tr th{
+	border-color: #78CAC7!important;
+}
+div#RespHistDiv{
+	height: 395px;
+	overflow-y:auto;	
+}
+div#RespHistHeader{
+	background-color: #fff!important;	
+}
+div#RespHistFooter{
+	background-color: #fff!important;	
+}
+
+a.btnLink{
+	color:#fff!important;
+	font-family: Arial!important;
+}
+div#wrapper{
+	background-color: #016877;
+}
+
+.ui.teal.ribbon.label.pageLabel{
+	color: #000!important;
+	background-color:#66c3bf!important;
+	font-size: 14px!important; 
+}
